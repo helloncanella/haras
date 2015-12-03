@@ -5,7 +5,7 @@ var browserSync = require('browser-sync').create();
 var watchify = require('watchify');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
-var glob = require("glob");
+var glob = require('glob');
 var _ = require('lodash');
 
 var sourceFiles = [],
