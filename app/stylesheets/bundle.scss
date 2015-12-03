@@ -1,7 +1,16 @@
 @import "app/scripts/src/components/Header/Header";
 @import "app/scripts/src/components/SubHeader/SubHeader";
+@import "app/scripts/src/components/Cavalo/Cavalo";
+@import "app/scripts/src/components/Galeria/Galeria";
+@import "app/scripts/src/components/Divisoria/Divisoria";
+
+$separacao-vertical: 2em;
 
 body{
   margin: 0;
-  user-select:none;
+
+  section{
+    margin-top:$separacao-vertical;
+  }
+
 }

@@ -13,9 +13,17 @@
 .SubHeader .menu a:first-child {
   padding-left: 0; }
 
+.Cavalo .title {
+  margin-bottom: 0.5em; }
+
+.Galeria .video {
+  margin-top: 2em; }
+
+.Divisoria {
+  border-top: 1px solid gray;
+  margin-top: 2.5em; }
+
 body {
-  margin: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  margin: 0; }
+  body section {
+    margin-top: 2em; }
