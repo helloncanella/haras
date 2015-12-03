@@ -1,20 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function getAppStates () {}
-
+import Header from './components/Header/Header';
+import SubHeader from './components/SubHeader/SubHeader';
 
 class AppView extends React.Component {
 
-  render () {
+  render() {
     return (
-      <div className='App'>
-        <h1>Helllo</h1>
+      <div>
+        <Header/>
+        <SubHeader/>
       </div>
     );
   }
 
-
 }
 
-ReactDOM.render(<AppView/>, document.getElementById('cointainer'));
+ReactDOM.render(
+  <AppView/>, document.getElementById('cointainer'));
