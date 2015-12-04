@@ -13,17 +13,115 @@
 .SubHeader .menu a:first-child {
   padding-left: 0; }
 
-.Cavalo .title {
-  margin-bottom: 0.5em; }
+.Cavalo h6, .Cavalo p {
+  margin-bottom: 1.25rem; }
+
+.Cavalo .inline {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .Cavalo .inline h6 {
+    margin-right: 10px; }
+  .Cavalo .inline p {
+    position: relative;
+    bottom: 0.05rem; }
+
+.Cavalo .Valor h6, .Cavalo .Descricao h6 {
+  margin-bottom: 0.4rem; }
+
+.Cavalo .Genealogia h6 {
+  margin-bottom: 0rem; }
+
+.Cavalo .Genealogia .Caixa {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 10vh; }
+  .Cavalo .Genealogia .Caixa:last-child {
+    margin-bottom: 1rem; }
+  .Cavalo .Genealogia .Caixa p {
+    margin: 0;
+    margin-right: 10px; }
+  .Cavalo .Genealogia .Caixa .ramificacao {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+    .Cavalo .Genealogia .Caixa .ramificacao .content {
+      margin-left: 20px;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+    .Cavalo .Genealogia .Caixa .ramificacao .bracket {
+      height: 100%;
+      position: absolute;
+      left: 0; }
+
+.Galeria h4 {
+  font-variant: small-caps; }
 
 .Galeria .video {
   margin-top: 2em; }
 
-.Divisoria {
+.Divisoria .Linha {
   border-top: 1px solid gray;
-  margin-top: 2.5em; }
+  margin-top: 2em; }
+
+.Talvez {
+  background-color: #F2F2F2;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.Separador {
+  position: relative;
+  margin-bottom: 1em;
+  margin-top: 1em; }
+  .Separador .Linha {
+    border-top: 1px solid gray; }
+  .Separador .Badge {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.Extra h4, .Extra p {
+  text-align: center; }
+
+.Extra img {
+  margin-top: 0.2em;
+  margin-bottom: 1em; }
+
+footer {
+  margin-top: 4.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #006838;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  footer img {
+    margin: auto; }
 
 body {
   margin: 0; }
   body section {
     margin-top: 2em; }
+  body h3, body h4, body h5, body h6 {
+    color: #006838; }
+  body h2 {
+    color: #7F7F7F; }
+  body .title {
+    margin-bottom: 0.5em; }

@@ -3,6 +3,9 @@
 @import "app/scripts/src/components/Cavalo/Cavalo";
 @import "app/scripts/src/components/Galeria/Galeria";
 @import "app/scripts/src/components/Divisoria/Divisoria";
+@import "app/scripts/src/components/Talvez/Talvez";
+@import "app/scripts/src/components/Extra/Extra";
+@import "app/scripts/src/components/Footer/Footer";
 
 $separacao-vertical: 2em;
 
@@ -11,6 +14,18 @@ body{
 
   section{
     margin-top:$separacao-vertical;
+  }
+
+  h3, h4,h5, h6{
+    color:#006838;
+  }
+
+  h2{
+     color:#7F7F7F
+  }
+
+  .title{
+    margin-bottom: 0.5em;
   }
 
 }

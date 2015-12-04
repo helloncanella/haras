@@ -1,5 +1,21 @@
-.Cavalo{
-  .title{
-    margin-bottom: 0.5em;
+.Talvez{
+  background-color: #F2F2F2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.Separador{
+
+  position:relative;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  .Linha{
+    border-top: 1px solid gray;
+  }
+  .Badge{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
   }
 }

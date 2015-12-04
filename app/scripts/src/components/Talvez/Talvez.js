@@ -1,24 +1,33 @@
 import React from 'react';
 
-class Cavalo extends React.Component {
+class Talvez extends React.Component {
   render() {
     return (
-      <section className='Cavalo'>
+      <section className='Talvez'>
+
         <div className='row'>
-          <div className='columns title'>
-            <h2>Txai Grão Pará</h2>
-            <h6>REGISTRO 123456789</h6>
+          <div className='title column'>
+            <h3>Talvez se interesse</h3>
           </div>
-
-          <div class="media-object">
-            <div className="media-object-section large-7 columns">
-
-              <img src="images/7.png"/>
-            </div>
-            <div className="media-object-section large-5 columns">
-              <h4>Dreams feel real while we're in them.</h4>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-            </div>
+          <div className='large-3 column'>
+            <img src='images/7.png'/>
+            <Separador/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore saepe facere, iure aspernatur expedita.</p>
+          </div>
+          <div className='large-3 column'>
+            <img src='images/7.png'/>
+            <Separador/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore saepe facere, iure aspernatur expedita.</p>
+          </div>
+          <div className='large-3 column'>
+            <img src='images/7.png'/>
+            <Separador/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore saepe facere, iure aspernatur expedita.</p>
+          </div>
+          <div className='large-3 column'>
+            <img src='images/7.png'/>
+            <Separador/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore saepe facere, iure aspernatur expedita.</p>
           </div>
         </div>
       </section>
@@ -26,4 +35,20 @@ class Cavalo extends React.Component {
   }
 }
 
-export default Cavalo;
+class Separador extends React.Component {
+
+  render(){
+    return(
+      <div className='Separador'>
+        <div className='Linha'></div>
+        <div className='Badge'>
+          <img src='images/5.png'/>
+        </div>
+      </div>
+    );
+  }
+
+}
+
+
+export default Talvez;

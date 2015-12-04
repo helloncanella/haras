@@ -1,5 +1,70 @@
-.Cavalo{
-  .title{
-    margin-bottom: 0.5em;
+.Cavalo {
+
+  h6, p{
+    margin-bottom: 1.25rem;
   }
+
+  .inline {
+    display: flex;
+    align-items: center;
+
+    h6{
+      margin-right: 10px;
+    }
+
+    p{
+      position: relative;
+      bottom: 0.05rem;
+    }
+  }
+
+  .Valor, .Descricao{
+    h6{
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  .Genealogia{
+
+    h6{
+      margin-bottom: 0rem;
+    }
+
+    .Caixa{
+      display: flex;
+      align-items: center;
+      height: 10vh;
+
+      &:last-child{
+        margin-bottom: 1rem;
+      }
+
+      p{
+        margin: 0;
+        margin-right: 10px;
+      }
+
+      .ramificacao{
+        display: flex;
+        position: relative;
+
+        .content{
+          margin-left: 20px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        .bracket{
+          height: 100%;
+          position: absolute;
+          left:0;
+        }
+      }
+    }
+
+  }
+
+
 }
