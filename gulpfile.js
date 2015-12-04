@@ -26,7 +26,7 @@ gulp.task('serve', [
 
   gulp.watch('app/**/*.scss', ['sass']);
   gulp.watch('app/scripts/src/**/*.js', ['browserify']);
-  gulp.watch('app/*.html')
+  gulp.watch('app/*.ejs')
     .on('change', browserSync.reload);
 
 });
